@@ -6,7 +6,6 @@ function MainTask() {
   return (
     <div className="outer-container">
       <div className="task-container">
-
         <div className="each-task">
           <div className="todo-container">
             <input type="checkbox" id="todo1" name="todo1" value="Bike" />
@@ -41,7 +40,6 @@ function MainTask() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

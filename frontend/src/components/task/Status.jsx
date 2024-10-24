@@ -6,11 +6,13 @@ function Status() {
     <div className="status-container">
       <div className="each-status">
         {" "}
-        <span  className="status">Remaining</span> <span className="count">1</span>
+        <span className="status">Remaining</span>{" "}
+        <span className="count">1</span>
       </div>
       <div className="each-status">
         {" "}
-        <span className="status">Completed</span> <span className="count">1</span>
+        <span className="status">Completed</span>{" "}
+        <span className="count">1</span>
       </div>
       <div className="each-status">
         {" "}

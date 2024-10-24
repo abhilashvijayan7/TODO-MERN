@@ -1,77 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
-.each-task{
-    background-color: #CBC5EA;
-    margin:5px 0 20px 0;
-    border-radius: 16px;
-
+.each-task {
+  background-color: #cbc5ea;
+  margin: 5px 0 20px 0;
+  border-radius: 16px;
 }
-.task-container{
-    width: 317px;
-
+.task-container {
+  width: 317px;
 }
-.outer-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.todo-container{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    height: 88px;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+.todo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 88px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
-.label{
-    text-decoration: line-through;
+.label {
+  text-decoration: line-through;
 }
-.label-icon{
-    width: 219px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
+.label-icon {
+  width: 219px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .todo-container input[type="checkbox"] {
-    -webkit-appearance: none; 
-    -moz-appearance: none;    
-    appearance: none;         
-    width: 20px;              
-    height: 20px;  
-    border-radius: 50%;      
-    margin-right: 10px;    
-    cursor: pointer;        
-    border: 2px solid white;   
-    background-color: #CBC5EA;  
-    transition: all 0.3s ease; 
-    margin-left: 15px;
-    accent-color: #EAEAEA;
-    position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: #cbc5ea;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+  accent-color: #eaeaea;
+  position: relative;
 }
 
 .todo-container input[type="checkbox"]:hover {
-    border: 2px solid #73628A;   
-
+  border: 2px solid #73628a;
 }
 
 .todo-container input[type="checkbox"]:checked {
-    background-color: #73628A;
-    border: 2px solid #73628A;   
-
-
+  background-color: #73628a;
+  border: 2px solid #73628a;
 }
 .todo-container input[type="checkbox"]:checked::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    height: 12px;
-    border:  solid white;
-    border-width: 0 2px 2px 0;
-    top: -2px;
-    left: 5px;
-    transform: rotate(40deg); 
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  top: -2px;
+  left: 5px;
+  transform: rotate(40deg);
 }
-

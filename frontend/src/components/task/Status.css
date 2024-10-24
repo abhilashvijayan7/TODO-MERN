@@ -4,7 +4,10 @@
 .status-container{
     display: flex;
     justify-content: space-around;
-    margin: 30px 0;
+    align-items: center;
+    margin: 30px auto;
+    width: 355px;
+
 }
 .each-status{
     width: 109.08px ;
